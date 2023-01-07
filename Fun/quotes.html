@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Quotes
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Manas Chandra" content="CReator of this website">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="quotes.css">
+    </head>
+    <body>
+        <div class="container-1">
+            <h2>QUOTES by famous people</h2>
+            <button type="button" id="quotebtn">press to display a quote</button>
+            <blockquote>
+                <h2 id="qu">quote</h2>
+            </blockquote>
+            <h3 id="quAu">Author of the Quote</h3>
+        </div>
+        <div class="container-2">
+            <h1>message you would like to send</h1>
+            <input type="text" name="message" id='messageIn'>
+            <button type="btn-2" id="sendbtn">pres to send</button>
+            <h1 id="messageout"><div> message delivered appear here.</div></h1>
+        </div>
+        <div class="container-3">
+            <h2>Counter</h2>
+            <h1 class="counter">0</h1>
+            <div id="btns">
+                <button type="button" class="btn" id="lobtn">increase count </button>
+                <button type="button" class="btn" id="adbtn"> decrease count </button>
+                <div id="fun"></div>
+            </div>
+        </div>
+        <!-- <div class="navcenter">
+            <div class="navbar">
+                <button class="navtoggle">_-_</button>
+                <ul class="links">
+                    <li class="lin"><a href="../../css spreadsheet/my website/trial.html">first website</a></li>
+                    <li class="lin"><a href="../../css spreadsheet/my website/anime.html">about anime</a></li>
+                    <li class="lin"><a href="../../css spreadsheet/my website/haikyuu.html">Haikyuu</a></li>
+                </ul>
+            </div> -->
+        </div>
+        <div class="container-4" id="age">
+            <h2>Your age in years and days </h2>
+            <button id="button" onclick="ageindays()">click me</button>
+            <button id="button" onclick="reset()">reset</button>
+            <div class="end_result" id="end"></div>
+           </div>
+        <div class="container">
+            <div class="calculator">
+            </div>
+        </div>
+        <script src="quotes.js"></script>
+    </body>
+</html> 
